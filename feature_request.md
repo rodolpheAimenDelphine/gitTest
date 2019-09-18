@@ -21,4 +21,3 @@ Scenario: User select add a Benefit
     And the user get a confirmation message
     
     
-    Aimen Zemzmi
