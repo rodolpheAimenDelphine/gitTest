@@ -1,6 +1,9 @@
 ---
 name: Feature Request
 about: ideas for new features and improvements
+title: ''
+labels: ''
+assignees: ''
 
 ---
 
@@ -19,5 +22,3 @@ Scenario: User select add a Benefit
     And user complete the form
     Then the Benefit has been added to the database
     And the user get a confirmation message
-    
-    
