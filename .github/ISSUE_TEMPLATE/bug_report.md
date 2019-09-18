@@ -1,9 +1,11 @@
 ---
 name: Bug Report
 about: Report errors and problems
+title: ''
+labels: ''
+assignees: ''
 
 ---
-
 
 ## Current Behavior
 
@@ -42,4 +44,4 @@ Scenario: User select add a Benefit
     
 ### Possible solutions
 
-Describe general solution, documentations and/or source code that could help fix this issue 
+Describe general solution, documentations and/or source code that could help fix this issue
