@@ -1,45 +1,38 @@
 ---
-name: Bug Report
-about: Report errors and problems
+name: Bug report
+about: Create a report to help us improve
+title: ''
+labels: ''
+assignees: ''
 
 ---
 
+**Describe the bug**
+A clear and concise description of what the bug is.
 
-## Current Behavior
+**To Reproduce**
+Steps to reproduce the behavior:
+1. Go to '...'
+2. Click on '....'
+3. Scroll down to '....'
+4. See error
 
-Add description to the current behavior you observed 
+**Expected behavior**
+A clear and concise description of what you expected to happen.
 
-### How to reproduce scenario
+**Screenshots**
+If applicable, add screenshots to help explain your problem.
 
-Scenarios have to be presented using the [Gherkin syntax](https://docs.cucumber.io/gherkin/). 
-You can follow this example :
+**Desktop (please complete the following information):**
+ - OS: [e.g. iOS]
+ - Browser [e.g. chrome, safari]
+ - Version [e.g. 22]
 
-Bug Report : No confirmation message when creating a Benefit 
+**Smartphone (please complete the following information):**
+ - Device: [e.g. iPhone6]
+ - OS: [e.g. iOS8.1]
+ - Browser [e.g. stock browser, safari]
+ - Version [e.g. 22]
 
-Scenario: User select add a Benefit
-    Given the user is connected with a role_admin
-    When the user land on a add a Benefit form
-    And user complete the form
-    Then the Benefit has been added to the database
-
-## Expected behavior
-
-Add description of the expected behavior that will fix the issue
-
-### Expected Scenario
-
-Scenarios have to be presented using the [Gherkin syntax](https://docs.cucumber.io/gherkin/). 
-You can follow this example :
-
-Bug Report : No confirmation message when creating a Benefit 
-
-Scenario: User select add a Benefit
-    Given the user is connected with a role_admin
-    When the user land on a add a Benefit form
-    And user fill the form
-    Then the Benefit has been added to the database
-    And the user get a confirmation message
-    
-### Possible solutions
-
-Describe general solution, documentations and/or source code that could help fix this issue 
+**Additional context**
+Add any other context about the problem here.
